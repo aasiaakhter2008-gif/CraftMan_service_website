@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+span {
+    color: red;
+}
+
+/* header start */
+header {
+    top: 0px;
+    box-shadow: 0px 0px 10px 5px rgb(33, 33, 33);
+    width: 100%;
+    background-color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+}
+
+header nav div.logo img {
+    height: 40px;
+    padding: 3px;
+}
+
+header nav div.logo p {
+    margin-left: 10px;
+}
+
+header nav div.nav-options ul {
+    display: flex;
+}
+
+header nav div.nav-options ul li {
+    list-style-type: none;
+    padding: 30px;
+}
+
+header nav div.nav-options ul li a {
+    text-decoration: none;
+}
+
+header nav div.nav-options ul li:hover {
+    background-color: white;
+}
+
+header nav div.nav-options ul li:hover a {
+    color: black;
+}
+
+header nav img.menu {
+    height: 30px;
+    background-color: white;
+    padding: 2px;
+    display: none;
+}
+
+/* header end */
+
+/* section:hero start*/
+section.hero {
+    margin: auto auto 50px auto;
+    width: 90%;
+}
+
+section.hero div.hero-p-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+section.hero div.hero-p-btn p {
+    font-size: 20px;
+}
+
+section.hero div.hero-p-btn button {
+    padding: 15px 25px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.hero div.hero-p-btn button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+section.hero img {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* section:hero end*/
+
+/* section:about start */
+section.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 100px auto;
+}
+
+section.about div.about-img {
+    width: 40%;
+}
+
+section.about div.about-img img {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+section.about div.about-text {
+    width: 50%;
+}
+
+section.about div.about-text p {
+    line-height: 30px;
+}
+
+/* section:about end */
+
+/* section:services start */
+
+section.services div.container {
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+section.services div.container h1 {
+    color: black;
+    margin-top: 0px;
+}
+
+section.services div.container div.services-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 50px 0px;
+}
+
+section.services div.container div.services-text h6 {
+    color: black;
+    font-weight: normal;
+}
+
+section.services div.container div.services-text p {
+    color: black;
+    width: 85%;
+    font-size: 16px;
+}
+
+section.services div.container hr {
+    border: 0px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+section.services div.container button {
+    margin-top: 50px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+section.services div.container button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* section:services end */
+
+/* section:choose start */
+section.choose {
+    background-color: rgb(195, 183, 216);
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+
+section.choose h1 {
+    color: black;
+}
+
+section.choose div.choose-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.choose div.choose-cards div.card {
+    width: 30%;
+    margin: 50px 0px;
+}
+
+section.choose div.choose-cards div.card img {
+    height: 40px;
+    margin: 5px;
+}
+
+section.choose div.choose-cards div.card h2 {
+    font-weight: normal;
+    color: black;
+    font-size: 25px;
+}
+
+/* section:choose end */
+
+/* section:testimonal start */
+section.testimonal {
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+section.testimonal div.testimonal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0px 50px 0px;
+}
+
+section.testimonal div.testimonal-cards div.card {
+    background-color: white;
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+section.testimonal div.testimonal-cards div.card hr {
+    border: 0px;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+section.testimonal div.testimonal-cards div.card h3 {
+    color: black;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+section.testimonal div.testimonal-cards div.card p {
+    color: black;
+    font-size: 16px;
+}
+
+/* section:testimonal end */
+
+/* section:contact start */
+section.contact .container {
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+section.contact .container h1 {
+    color: black;
+    text-align: center;
+}
+
+section.contact .container form {
+    width: 70%;
+    margin: auto;
+}
+
+section.contact .container form label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+section.contact .container form input {
+    width: 100%;
+    margin: 30px 0px;
+    border: none;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+section.contact .container form textarea {
+    width: 100%;
+    margin: 30px 0px;
+    border: none;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+section.contact .container form div.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.contact .container form div.name div {
+    width: 45%;
+}
+
+section.contact .container form button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+section.contact .container form button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* section:contact end */
+
+/* footer start */
+footer div.container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+footer div.container div.card {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    width: 32.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+footer div.container div.logo {
+    display: flex;
+    align-items: center;
+}
+
+footer div.container div.logo img {
+    height: 60px;
+    background-color: black;
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+footer div.container div.card p {
+    margin: auto;
+    color: black;
+}
+
+/* footer end */
+
+/* responsive */
+@media (max-width: 1040px) {
+    h1 {
+        font-size: 60px;
+        margin: 20px 0px;
+    }
+
+    /* section:about */
+    section.about div.about-text p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 50px;
+        margin: 20px 0px;
+    }
+
+    /* header */
+    header nav div.nav-options {
+        display: none;
+    }
+
+    header nav img.menu {
+        display: inline;
+        margin: 30px 0px;
+    }
+
+    /* section:about */
+    section.about div.about-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    section.about div.about-text {
+        width: 100%;
+    }
+
+    /* section:testimonal */
+    section.testimonal div.testimonal-cards {
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    section.testimonal div.testimonal-cards div.card {
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    section.testimonal div.testimonal-cards div.last {
+        width: 100%;
+    }
+
+    /* footer */
+    footer div.container div.card {
+        width: 49.3%;
+        margin-top: 10px;
+    }
+
+    footer div.container div.last {
+        width: 100%;
+    }
+}
+
+@media (max-width: 558px) {
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* header */
+    header nav p {
+        font-size: 18px;
+    }
+
+    /* section:hero */
+    section.hero div.hero-p-btn {
+        justify-content: center;
+    }
+
+    section.hero div.hero-p-btn button {
+        margin-top: 15px;
+    }
+
+    /* section:services */
+    section.services div.container div.services-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.services div.container div.services-text h6 {
+        margin-bottom: 10px;
+    }
+
+    /* section:choose */
+    section.choose div.choose-cards div.card {
+        width: 40%;
+    }
+
+    /* section:testimonal */
+    section.testimonal div.testimonal-cards {
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    section.testimonal div.testimonal-cards div.card {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* section:contact */
+    section.contact .container form {
+        width: 100%;
+    }
+
+    section.contact .container form div.name div {
+        width: 49%;
+    }
+
+    /* footer */
+    footer div.container div.card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    h1{
+        font-size: 35px;
+    }
+
+    /* header */
+    header nav .call{
+        display: none;
+    }
+
+    /* section:choose */
+    section.choose div.choose-cards div.card {
+        width: 100%;
+    }
+}
