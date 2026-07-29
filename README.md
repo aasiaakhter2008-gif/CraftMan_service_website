@@ -1,35 +1,25 @@
-CraftMan Service Website
+# 🔨 CraftMan - Handyman Service Website
 
-CraftMan Service Website is a modern, fully responsive service-based website created using HTML and CSS. It is designed to showcase craftsmanship services such as repairs, installations, renovations, and custom projects. The design is clean, simple, and easy to navigate on all devices.
+A modern and responsive handyman service website built using HTML, CSS, and JavaScript. The project provides a clean and user-friendly interface to showcase home maintenance and repair services, skilled professionals, customer testimonials, and an online booking section.
 
-Features:
+## 🚀 Features
+- Responsive Design
+- Hero Section
+- Service Showcase
+- About Section
+- Skilled Professionals
+- Customer Testimonials
+- Contact & Booking Form
+- Modern UI/UX
 
-Fully responsive layout
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
 
-Clean and modern design
+## 📱 Responsive
+- Desktop
+- Tablet
+- Mobile
 
-Built with only HTML and CSS
-
-Includes service, portfolio, about, and contact sections
-
-Easy to customize
-
-Technologies Used:
-
-HTML5
-
-CSS3
-
-Project Structure:
-index.html
-css/style.css
-assets/images/
-
-Responsive Design:
-The website adjusts smoothly for mobile, tablet, and desktop screens.
-
-Contact:
-You can modify and use this project for personal or commercial use.
-
-License:
-This project is open-source and free to use.
+## 🌐 Live Demo
+https://craft-man-service-website.vercel.app/
